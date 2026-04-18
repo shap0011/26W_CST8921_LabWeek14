@@ -1,9 +1,11 @@
 # Big Data Analytics Lab
+
 ## Optimize Business Processes Using Big Data Analytics
 
 ---
 
 ### Overview
+
 This lab walks through the full spectrum of big data analytics using **PySpark** on a
 simulated retail transactions dataset. You will explore four types of analytics, apply
 window functions, engineer ML features, and build two real-world use cases.
@@ -11,12 +13,14 @@ window functions, engineer ML features, and build two real-world use cases.
 ---
 
 ### Prerequisites
+
 - Python 3.9+
 - PySpark 4.x
 - Java 17 (set `JAVA_HOME=/opt/homebrew/opt/openjdk@17`)
 - `JAVA_TOOL_OPTIONS=--add-opens=java.base/javax.security.auth=ALL-UNNAMED`
 
 ### Run the Lab
+
 ```bash
 python big_data_analytics_lab.py
 ```
@@ -25,19 +29,20 @@ python big_data_analytics_lab.py
 
 ### Lab Structure
 
-| Part | Topic                        | Analytics Type  |
-|------|------------------------------|-----------------|
-| 1    | Summary stats, revenue by category/region | Descriptive |
-| 2    | Drill-down, pivot, monthly trends         | Diagnostic  |
-| 3    | Rankings, running totals, window functions | Advanced    |
-| 4    | RFM scoring, ML feature engineering       | Predictive  |
-| 5    | Customer segmentation (Champions → At Risk) | Use Case  |
-| 6    | Anomaly detection using z-scores          | Use Case    |
-| 7    | Parquet output for downstream use         | Data Engineering |
+| Part | Topic                                       | Analytics Type   |
+| ---- | ------------------------------------------- | ---------------- |
+| 1    | Summary stats, revenue by category/region   | Descriptive      |
+| 2    | Drill-down, pivot, monthly trends           | Diagnostic       |
+| 3    | Rankings, running totals, window functions  | Advanced         |
+| 4    | RFM scoring, ML feature engineering         | Predictive       |
+| 5    | Customer segmentation (Champions → At Risk) | Use Case         |
+| 6    | Anomaly detection using z-scores            | Use Case         |
+| 7    | Parquet output for downstream use           | Data Engineering |
 
 ---
 
 ### Techniques Covered
+
 - **Aggregations**: groupBy, pivot, describe
 - **Window Functions**: rank(), ntile(), running totals, partitionBy
 - **Feature Engineering**: hour/day/month extraction, RFM scoring, binary flags
@@ -45,6 +50,7 @@ python big_data_analytics_lab.py
 - **SQL**: Spark SQL equivalents via DataFrame API
 
 ### Tools Used
+
 - **PySpark DataFrame API** — distributed data processing
 - **Spark SQL functions** — F.col, F.when, F.window, F.ntile, etc.
 - **Parquet** — columnar storage for analytics outputs
@@ -69,6 +75,7 @@ Try these modifications after running the lab:
 
 7. **Challenge**: Build a `region_health_score` that combines total revenue, avg order value, and transaction count into a single composite score per region.
 
+```
 # DATASET — Simulated retail transactions across regions
 # ============================================================
 transactions = [
@@ -105,3 +112,5 @@ schema = StructType([
     StructField("timestamp",      StringType(),  True),
     StructField("payment_method", StringType(),  True),
 ])
+
+```
