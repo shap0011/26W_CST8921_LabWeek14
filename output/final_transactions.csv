@@ -1,0 +1,21 @@
+id,transaction_id,customer,region,category,unit_price,quantity,timestamp,payment_method,revenue
+1,T001,Alice,North,Electronics,899.99,2,2024-01-05 10:30:00,credit_card,1799.98
+2,T002,Bob,South,Clothing,45.0,3,2024-01-06 11:00:00,cash,135.0
+3,T003,Charlie,East,Electronics,199.5,1,2024-01-06 14:20:00,debit_card,199.5
+4,T004,Alice,North,Food,12.5,5,2024-01-07 09:15:00,cash,62.5
+5,T005,David,West,Electronics,450.0,1,2024-01-08 16:45:00,credit_card,450.0
+6,T006,Eve,South,Food,22.0,4,2024-01-08 18:00:00,credit_card,88.0
+7,T007,Frank,North,Clothing,75.0,2,2024-01-09 13:30:00,debit_card,150.0
+8,T008,Grace,East,Food,33.0,3,2024-01-10 10:00:00,cash,99.0
+9,T009,Heidi,West,Electronics,600.0,1,2024-02-01 12:00:00,credit_card,600.0
+10,T010,Ivan,South,Clothing,110.0,2,2024-02-02 15:30:00,debit_card,220.0
+11,T011,Alice,North,Electronics,250.0,1,2024-02-03 09:00:00,credit_card,250.0
+12,T012,Bob,South,Food,18.0,6,2024-02-04 17:00:00,cash,108.0
+13,T013,Charlie,East,Clothing,95.0,1,2024-02-05 11:45:00,credit_card,95.0
+14,T014,David,West,Food,8.5,2,2024-02-06 08:30:00,debit_card,17.0
+15,T015,Eve,South,Electronics,320.0,1,2024-02-07 14:00:00,credit_card,320.0
+16,T016,Frank,North,Food,55.0,3,2024-03-01 10:15:00,cash,165.0
+17,T017,Grace,East,Electronics,780.0,2,2024-03-02 16:00:00,credit_card,1560.0
+18,T018,Heidi,West,Clothing,200.0,1,2024-03-03 12:30:00,debit_card,200.0
+19,T019,Ivan,South,Food,40.0,5,2024-03-04 09:45:00,cash,200.0
+20,T020,Alice,North,Electronics,999.99,1,2024-03-05 11:00:00,credit_card,999.99
