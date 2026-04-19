@@ -162,10 +162,10 @@ output/final_transactions.csv
 ## Key Insights
 
 - `Electronics` category generates the highest revenue
-- `North region` performs best overall
-- `Credit card` is the dominant payment method for high-value purchases
+- `North` region performs best overall
+- `credit_card` is the dominant payment method for high-value purchases
 - `Alice` is the top customer (Champion segment)
-- `High-value transactions` were successfully identified as anomalies
+- High-value transactions were successfully identified as anomalies
 
 ---
 
