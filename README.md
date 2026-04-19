@@ -169,12 +169,6 @@ output/final_transactions.csv
 
 ---
 
-## Conclusion
-
-This lab demonstrates how PySpark can be used to perform end-to-end big data analytics, from data preparation to advanced insights and business-driven segmentation.
-
----
-
 ## Repository Structure
 
 ```
@@ -186,3 +180,27 @@ This lab demonstrates how PySpark can be used to perform end-to-end big data ana
 ```
 
 ---
+
+## Reflection
+
+This lab provided hands-on experience with PySpark for large-scale data processing and analytics. One of the key takeaways was understanding how different types of analytics: descriptive, diagnostic, and advanced can be applied to extract meaningful insights from raw data.
+
+Working through the lab also highlighted practical challenges, particularly related to environment configuration on Windows. Issues such as Python version compatibility and Hadoop dependencies required troubleshooting and alternative solutions. This experience reinforced the importance of understanding the underlying system architecture when working with distributed data processing tools.
+
+The implementation of RFM scoring and customer segmentation helped bridge the gap between technical analysis and real-world business applications. It demonstrated how data can be transformed into actionable insights for decision-making, such as identifying high-value customers and detecting unusual transactions.
+
+Overall, this lab improved my confidence in using PySpark and deepened my understanding of how big data analytics workflows are structured and executed.
+
+---
+
+## Conclusion
+
+In this lab, a complete big data analytics pipeline was developed using PySpark. Starting from raw transactional data, the process included data preparation, feature engineering, and multiple layers of analysis, including descriptive, diagnostic, and advanced analytics.
+
+The results showed clear business insights, such as identifying top-performing regions, high-revenue product categories, and customer segments. The use of RFM scoring enabled effective customer classification, while anomaly detection highlighted unusual high-value transactions.
+
+Despite technical limitations in the Windows environment, a successful workaround was implemented by exporting the final dataset using Pandas. This demonstrated adaptability in handling real-world constraints.
+
+In conclusion, this lab illustrated the practical application of PySpark in analyzing and interpreting large datasets, providing valuable experience in both technical implementation and analytical thinking.
+
+This lab reflects real-world data engineering and analytics workflows commonly used in industry environments.
