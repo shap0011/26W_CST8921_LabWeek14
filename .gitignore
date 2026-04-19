@@ -7,3 +7,5 @@ output/parquet_transactions/
 
 __pycache__/
 *.pyc
+
+*.pdf
